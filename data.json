@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "firstName": "Fabrizio",
+      "lastName": "Maldura",
+      "email": "domini@magellanoconsulting.it",
+      "phoneNumber": "03711985888",
+      "role": "recruiters",
+      "password": "123456",
+      "id": 3
+    }
+  ],
+  "listingJobs": [
+    {
+      "idCreatet": 3,
+      "title": "test",
+      "description": "gfgfgf",
+      "nameCompany": "test",
+      "numberCompany": "+355675167244",
+      "emailCompany": "kevin_bundo@yahoo.com",
+      "webCompany": "gffgfgfg",
+      "type": "Part-Time",
+      "id": 5
+    }
+  ],
+  "jobsFaforite": [
+    {
+      "idUser": 1,
+      "idJobs": 2,
+      "id": 2
+    },
+    {
+      "idUser": 1,
+      "idJobs": 1,
+      "id": 3
+    }
+  ]
+}

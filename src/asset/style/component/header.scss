@@ -1,0 +1,25 @@
+.header-user{
+    background-color: $purplelight;
+    position: sticky;
+    top: 0px;
+    z-index: 999;    
+}
+.logo-header{
+    display: contents;
+    img{
+        width: 60px;
+        margin-right: 10px;
+    }
+}
+.navbar-collapse{
+    justify-content: flex-end;
+    
+    }
+.nav-item{
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.item-header-active{
+    color: $red;
+}

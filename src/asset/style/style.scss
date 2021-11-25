@@ -1,0 +1,103 @@
+$white: #fff;
+$red: #e64980;
+$purplelight: #f0f4ff;
+$grey: #898989;
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import "./modules/login.scss";
+@import "./modules/dashboard.scss";
+
+@import "./component/itemsJobs.scss";
+@import "./component/header.scss";
+
+body {
+    font-family: "Poppins" !important;
+    &::-webkit-scrollbar-track {
+        background-color: $purplelight;
+    }
+    &::-webkit-scrollbar {
+        width: 5px;
+        background-color: $purplelight;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: #5bb4ee;
+    }
+}
+a {
+    color: #5bb4ee;
+    &:hover {
+        text-decoration: none;
+        color: #5bb4ee;
+    }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0 !important;
+}
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.div-submit {
+    display: flex;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.button-submit {
+    border: 1px solid #5bb4ee;
+    color: #5bb4ee;
+    &:hover {
+        background-color: #5bb4ee !important;
+        color: $white !important;
+    }
+}
+.spinner-border {
+    color: #5bb4ee !important;
+    width: 20px !important;
+    height: 20px !important;
+    margin-bottom: 10px;
+}
+.button-delete {
+    border: 1px solid $red;
+    color: $red;
+    &:hover {
+        background-color: $red !important;
+        color: $white !important;
+    }
+}
+.button-cancel{
+    border: 1px solid $grey;
+    color: $grey;
+    &:hover {
+        background-color: $grey !important;
+        color: $white !important;
+    }
+}
+.wrapper-class {
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    border-radius: 5px;
+}
+.toolbar-class {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.23);
+    margin-bottom: 0px;
+}
+.rdw-editor-toolbar {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.editor-class {
+    min-height: 150px;
+    background-color: $white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.required {
+    color: $red;
+    font-size: 11px;
+}

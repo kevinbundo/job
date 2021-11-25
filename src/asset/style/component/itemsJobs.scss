@@ -1,0 +1,29 @@
+.item-jobs {
+    border: 1px solid #5bb4ee;
+    background-color: $purplelight;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   
+}
+.item-jobs-delalis {
+    border: 1px solid #5bb4ee;
+    background-color: $purplelight;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: fit-content;
+    display: flex;
+    .item-name {
+        color: $purple;
+        margin-right: 10px;
+    }
+}
+.item-jobs-right {
+    border-left: 1px solid #5bb4ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.favourite-icon {
+    color: #5bb4ee;
+    margin-right: 5px;
+}
