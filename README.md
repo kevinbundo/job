@@ -1,7 +1,6 @@
-1. npm install -g json-server 
-       OR
-   npx json-server --watch db.json 
+1. npm install -g json-server
+2. json-server --watch data.json --port 3001
 
-2. npm i
+3. npm i
 
-3. npm start
+4. npm start
